@@ -1,14 +1,14 @@
 body{
     background-image: url(img/birds.jpg);
-    background-size: 70%;
     background-repeat: no-repeat;
+    background-size:auto;
     background-position-x: center;
 }
 
 table{
-    transform: translate(0%, 550%);
+    transform: translate(0%,650%);
     text-align: center;
-    width: 30%;
+    width: 25%;
     margin:auto;
     box-shadow: inset -2px -2px 2px 2px lightgrey;
     border-spacing: 0px;

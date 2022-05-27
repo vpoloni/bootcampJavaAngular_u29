@@ -7,7 +7,6 @@ body{
     display: flex; 
     flex-wrap: wrap;  
     justify-content: space-evenly;  
-    border: 3px solid black;
 }
 
 .container-padre {
@@ -59,7 +58,7 @@ body{
 .child-hombre-3{
     background-image: url(img/hombre.jpg);
     background-position: center;
-    width: 15vw;
+    width: 16vw;
     height: 20vh;
     margin-left: 12%;
     margin-top: 4vh;
