@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+table{
+    margin: 10px;
+    padding: 5px;
+    border: 2px;
+    border-color: solid brown;
+    box-shadow: -2px -2px 2px 2px #888; 
+    width: 50vw;
+    margin: auto;
+}
+
+tr, td{
+    background-color: lightgray;
+}
+
+th{
+    background-color: lightsalmon;
+}
+
+.centro-izq{
+   text-align: left; 
+   background-color: lightskyblue;
+}
+
+.abajo-der{
+    text-align: right;
+    background-color: lightpink;
+    vertical-align: bottom;
+}
+
+.textcolor-red{
+    color:red;
+}

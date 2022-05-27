@@ -1,0 +1,25 @@
+body{
+    background-image: url(img/birds.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+table{
+    transform: translate(0%, 550%);
+    text-align: center;
+    width: 30%;
+    margin:auto;
+    box-shadow: inset -2px -2px 2px 2px lightgrey;
+    border-spacing: 0px;
+    padding: 10px;
+}
+
+tr, th, td{
+    border:2px solid grey;
+    background-color: lightgrey;
+}
+
+th{
+    background-color: antiquewhite;
+}

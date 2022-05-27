@@ -1,0 +1,114 @@
+body{
+    background-image: url(img/fondo.jpg); 
+    text-align: center;    
+}
+
+.container-principal{
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-evenly;  
+    border: 3px solid black;
+}
+
+.container-padre {
+    width: 20vw; 
+    height: 28vh; 
+    margin: 1%;
+    border: 2px solid black;
+}
+
+.child-cuadricula-1{
+    background-image: url(img/cuadrícula.jpg);
+}
+
+.child-cuadricula-2{
+    background-image: url(img/cuadrícula.jpg);
+    width: 16vw;
+    height: 26vh;
+    margin-left: 10%;
+    margin-top:10px;
+}
+
+.child-cuadricula-3{
+    background-image: url(img/cuadrícula.jpg);
+    background-size: 100% 100%; 
+}
+
+.child-cuadricula-4{
+    background-color: white;
+}
+
+.child-cuadricula-5{
+    background-image: url(img/cuadrícula.jpg);
+    background-size: 100% 100%;
+    width: 16vw;
+    height: 26vh;
+    margin-left: 10%;
+    margin-top:10px;
+}
+
+.child-hombre-1{
+    background-image: url(img/hombre.jpg);
+    background-size: 100% 100%;
+}
+
+.child-hombre-2{
+    background-color: white; 
+}
+
+.child-hombre-3{
+    background-image: url(img/hombre.jpg);
+    background-position: center;
+    width: 15vw;
+    height: 20vh;
+    margin-left: 12%;
+    margin-top: 4vh;
+}
+
+.child-hombre-4{
+    background-color: white; 
+}
+.child-hombre-5{
+    background-image: url(img/hombre_horizontal.jpg);
+    background-position: center;
+    margin-top: 25px;
+    height: 20vh;
+}
+
+.child-hombre-6{
+    background-color: white; 
+}
+
+.child-hombre-7{
+    background-image: url(img/hombre_vertical.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; 
+}
+
+.child-cuadrado-1{
+    background: rgb(2,0,36);
+    background: linear-gradient(80deg, rgb(5, 5, 5) 0%, rgb(68, 188, 68) 70%); 
+}
+
+.child-cuadrado-2{
+    background: rgb(35, 31, 31);
+    background: linear-gradient(0deg, rgb(10, 9, 9) 0%, rgb(192, 31, 31) 70%);
+}
+
+.child-cuadrado-3{
+    background: white;
+    background: linear-gradient(180deg, white 0%, rgb(133, 133, 34) 70%);
+
+}
+
+.child-cuadrado-4{
+    background: linear-gradient(180deg, transparent 0%, rgb(133, 133, 34) 100%);
+}
+
+
+
+
+
+
+
